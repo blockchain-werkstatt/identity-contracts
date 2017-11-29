@@ -106,6 +106,9 @@ export default class LightWallet {
       );
     });
   }
+  generateRandomSeed(entropy) {
+  return keystore.generateRandomSeed(entropy);
+}
 
   init({seedPhrase, pin}) {
     console.log('LightWallet: create LightWallet');

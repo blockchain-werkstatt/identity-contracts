@@ -59,6 +59,10 @@ export default class SmartWallet {
         return this.getMainAddress();
       });
   }
+  generateRandomSeed(entropy) {
+    let lightWallet = new LightWallet(this.gethHost)
+    return lightWallet.generateRandomSeed(entropy);
+  }
 
   initFromSerialized(serialzed) {
     const data = JSON.parse(serialzed);

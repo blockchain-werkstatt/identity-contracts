@@ -1,5 +1,5 @@
 {
-  "name": "smartwallet-contracts",
+  "name": "identity-contracts",
   "version": "1.0.0",
   "description": "Identity Contracts for SmartWallet   - Status: WIP   - Version: 0.1",
   "main": "lib/index.js",
